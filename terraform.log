@@ -1,0 +1,916 @@
+2024-08-03T11:49:29.089Z [INFO]  Terraform version: 1.9.3
+2024-08-03T11:49:29.090Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T11:49:29.090Z [INFO]  CLI args: []string{"terraform", "fmt"}
+2024-08-03T11:49:29.091Z [INFO]  CLI command args: []string{"fmt"}
+2024-08-03T11:50:18.857Z [INFO]  Terraform version: 1.9.3
+2024-08-03T11:50:18.857Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T11:50:18.858Z [INFO]  CLI args: []string{"terraform", "init"}
+2024-08-03T11:50:18.859Z [INFO]  CLI command args: []string{"init"}
+2024-08-03T13:53:19.701Z [INFO]  Terraform version: 1.9.3
+2024-08-03T13:53:19.702Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T13:53:19.702Z [INFO]  CLI args: []string{"terraform", "fmt"}
+2024-08-03T13:53:19.703Z [INFO]  CLI command args: []string{"fmt"}
+2024-08-03T13:53:31.562Z [INFO]  Terraform version: 1.9.3
+2024-08-03T13:53:31.562Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T13:53:31.562Z [INFO]  CLI args: []string{"terraform", "plan"}
+2024-08-03T13:53:31.563Z [INFO]  CLI command args: []string{"plan"}
+2024-08-03T13:53:32.603Z [INFO]  backend/local: starting Plan operation
+2024-08-03T13:53:32.628Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T13:53:34.234Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T13:53:34.234Z
+2024-08-03T13:53:34.363Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=22676
+2024-08-03T13:53:34.371Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T13:53:35.968Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T13:53:35.968Z
+2024-08-03T13:53:36.146Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=22714
+2024-08-03T13:53:36.146Z [INFO]  backend/local: plan calling Plan
+2024-08-03T13:53:36.151Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T13:53:37.761Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T13:53:37.761Z
+2024-08-03T13:53:37.927Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T13:53:37.930Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T13:53:37.930Z
+2024-08-03T13:53:37.931Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T13:53:37.930Z
+2024-08-03T13:53:37.931Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T13:53:37.930Z
+2024-08-03T13:53:37.931Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T13:53:37.930Z
+2024-08-03T13:53:37.931Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T13:53:37.930Z
+2024-08-03T13:53:37.931Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T13:53:37.930Z
+2024-08-03T13:53:37.931Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T13:53:37.930Z
+2024-08-03T13:53:39.806Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T13:53:39.806Z
+2024-08-03T13:53:39.806Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T13:53:39.806Z
+2024-08-03T13:53:49.689Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_resource_group.test-rg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .location: planned value cty.StringVal("westeurope") does not match config value cty.StringVal("West Europe")
+2024-08-03T13:53:49.702Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=22751
+2024-08-03T13:53:49.703Z [INFO]  backend/local: plan operation completed
+2024-08-03T13:54:45.248Z [INFO]  Terraform version: 1.9.3
+2024-08-03T13:54:45.249Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T13:54:45.249Z [INFO]  CLI args: []string{"terraform", "apply"}
+2024-08-03T13:54:45.250Z [INFO]  CLI command args: []string{"apply"}
+2024-08-03T13:54:46.268Z [INFO]  backend/local: starting Apply operation
+2024-08-03T13:54:46.291Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T13:54:47.926Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T13:54:47.926Z
+2024-08-03T13:54:48.061Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=23084
+2024-08-03T13:54:48.065Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T13:54:49.668Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T13:54:49.668Z
+2024-08-03T13:54:49.853Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=23131
+2024-08-03T13:54:49.853Z [INFO]  backend/local: apply calling Plan
+2024-08-03T13:54:49.858Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T13:54:51.431Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T13:54:51.431Z
+2024-08-03T13:54:51.609Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T13:54:51.611Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T13:54:51.611Z
+2024-08-03T13:54:51.611Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T13:54:51.611Z
+2024-08-03T13:54:51.611Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T13:54:51.611Z
+2024-08-03T13:54:51.611Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T13:54:51.611Z
+2024-08-03T13:54:51.611Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T13:54:51.611Z
+2024-08-03T13:54:51.611Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T13:54:51.611Z
+2024-08-03T13:54:51.611Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T13:54:51.611Z
+2024-08-03T13:54:52.658Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T13:54:52.658Z
+2024-08-03T13:54:52.658Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T13:54:52.658Z
+2024-08-03T13:55:01.189Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_resource_group.test-rg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .location: planned value cty.StringVal("westeurope") does not match config value cty.StringVal("West Europe")
+2024-08-03T13:55:01.204Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=23163
+2024-08-03T13:55:26.286Z [INFO]  backend/local: apply calling Apply
+2024-08-03T13:55:26.292Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T13:55:27.865Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T13:55:27.865Z
+2024-08-03T13:55:28.022Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T13:55:28.023Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T13:55:28.023Z
+2024-08-03T13:55:28.023Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T13:55:28.023Z
+2024-08-03T13:55:28.023Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T13:55:28.023Z
+2024-08-03T13:55:28.023Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T13:55:28.023Z
+2024-08-03T13:55:28.023Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T13:55:28.023Z
+2024-08-03T13:55:28.023Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T13:55:28.023Z
+2024-08-03T13:55:28.024Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T13:55:28.023Z
+2024-08-03T13:55:29.111Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T13:55:29.111Z
+2024-08-03T13:55:29.111Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T13:55:29.111Z
+2024-08-03T13:55:35.294Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_resource_group.test-rg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .location: planned value cty.StringVal("westeurope") does not match config value cty.StringVal("West Europe")
+2024-08-03T13:55:35.294Z [INFO]  Starting apply for azurerm_resource_group.test-rg
+2024-08-03T13:55:35.747Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=23377
+2024-08-03T14:06:36.956Z [INFO]  Terraform version: 1.9.3
+2024-08-03T14:06:36.956Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T14:06:36.957Z [INFO]  CLI args: []string{"terraform", "plan"}
+2024-08-03T14:06:36.958Z [INFO]  CLI command args: []string{"plan"}
+2024-08-03T14:06:37.938Z [INFO]  backend/local: starting Plan operation
+2024-08-03T14:06:37.962Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T14:06:39.606Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T14:06:39.606Z
+2024-08-03T14:06:39.736Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=25473
+2024-08-03T14:06:39.741Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T14:06:41.389Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T14:06:41.389Z
+2024-08-03T14:06:41.555Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=25514
+2024-08-03T14:06:41.555Z [INFO]  backend/local: plan calling Plan
+2024-08-03T14:06:41.559Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T14:06:43.166Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T14:06:43.166Z
+2024-08-03T14:06:43.327Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T14:06:43.328Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T14:06:43.328Z
+2024-08-03T14:06:43.328Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T14:06:43.328Z
+2024-08-03T14:06:43.328Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T14:06:43.328Z
+2024-08-03T14:06:43.328Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T14:06:43.328Z
+2024-08-03T14:06:43.328Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T14:06:43.328Z
+2024-08-03T14:06:43.329Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T14:06:43.328Z
+2024-08-03T14:06:43.329Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T14:06:43.328Z
+2024-08-03T14:06:44.424Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T14:06:44.424Z
+2024-08-03T14:06:44.424Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T14:06:44.424Z
+2024-08-03T14:06:51.109Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=25540
+2024-08-03T14:06:51.110Z [INFO]  backend/local: plan operation completed
+2024-08-03T14:07:08.285Z [INFO]  Terraform version: 1.9.3
+2024-08-03T14:07:08.286Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T14:07:08.286Z [INFO]  CLI args: []string{"terraform", "apply"}
+2024-08-03T14:07:08.287Z [INFO]  CLI command args: []string{"apply"}
+2024-08-03T14:07:09.333Z [INFO]  backend/local: starting Apply operation
+2024-08-03T14:07:09.356Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T14:07:10.987Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T14:07:10.987Z
+2024-08-03T14:07:11.120Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=25781
+2024-08-03T14:07:11.125Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T14:07:12.907Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T14:07:12.907Z
+2024-08-03T14:07:13.109Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=25815
+2024-08-03T14:07:13.109Z [INFO]  backend/local: apply calling Plan
+2024-08-03T14:07:13.114Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T14:07:14.771Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T14:07:14.771Z
+2024-08-03T14:07:14.952Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T14:07:14.953Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T14:07:14.953Z
+2024-08-03T14:07:14.953Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T14:07:14.953Z
+2024-08-03T14:07:14.953Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T14:07:14.953Z
+2024-08-03T14:07:14.953Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T14:07:14.953Z
+2024-08-03T14:07:14.954Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T14:07:14.953Z
+2024-08-03T14:07:14.954Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T14:07:14.953Z
+2024-08-03T14:07:14.954Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T14:07:14.953Z
+2024-08-03T14:07:16.128Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T14:07:16.128Z
+2024-08-03T14:07:16.129Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T14:07:16.128Z
+2024-08-03T14:07:23.193Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=25841
+2024-08-03T14:07:35.981Z [INFO]  backend/local: apply calling Apply
+2024-08-03T14:07:35.986Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T14:07:37.617Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T14:07:37.617Z
+2024-08-03T14:07:37.814Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T14:07:37.815Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T14:07:37.815Z
+2024-08-03T14:07:37.815Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T14:07:37.815Z
+2024-08-03T14:07:37.816Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T14:07:37.815Z
+2024-08-03T14:07:37.816Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T14:07:37.815Z
+2024-08-03T14:07:37.816Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T14:07:37.815Z
+2024-08-03T14:07:37.816Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T14:07:37.815Z
+2024-08-03T14:07:37.816Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T14:07:37.815Z
+2024-08-03T14:07:39.002Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T14:07:39.002Z
+2024-08-03T14:07:39.003Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T14:07:39.002Z
+2024-08-03T14:07:45.254Z [INFO]  Starting apply for azurerm_virtual_network.test-rg-vnet
+2024-08-03T14:07:49.699Z [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/azurerm\"]" produced an unexpected new value for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .flow_timeout_in_minutes: was null, but now cty.NumberIntVal(0)
+      - .bgp_community: was null, but now cty.StringVal("")
+      - .edge_zone: was null, but now cty.StringVal("")
+2024-08-03T14:07:49.721Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=26042
+2024-08-03T15:27:07.777Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:27:07.777Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:27:07.777Z [INFO]  CLI args: []string{"terraform", "state", "list"}
+2024-08-03T15:27:07.778Z [INFO]  CLI command args: []string{"state", "list"}
+2024-08-03T15:27:26.224Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:27:26.224Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:27:26.224Z [INFO]  CLI args: []string{"terraform", "state", "show", "azurerm_resource_group.test-rg"}
+2024-08-03T15:27:26.226Z [INFO]  CLI command args: []string{"state", "show", "azurerm_resource_group.test-rg"}
+2024-08-03T15:27:27.227Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:27:28.797Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:27:28.797Z
+2024-08-03T15:27:28.938Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=38190
+2024-08-03T15:27:44.043Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:27:44.044Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:27:44.044Z [INFO]  CLI args: []string{"terraform", "show"}
+2024-08-03T15:27:44.045Z [INFO]  CLI command args: []string{"show"}
+2024-08-03T15:27:45.913Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:27:47.499Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:27:47.499Z
+2024-08-03T15:27:47.633Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=38331
+2024-08-03T15:29:13.548Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:29:13.549Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:29:13.549Z [INFO]  CLI args: []string{"terraform", "plan", "--destroy"}
+2024-08-03T15:29:13.550Z [INFO]  CLI command args: []string{"plan", "--destroy"}
+2024-08-03T15:29:14.570Z [INFO]  backend/local: starting Plan operation
+2024-08-03T15:29:14.590Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:29:16.201Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:29:16.200Z
+2024-08-03T15:29:16.331Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=38693
+2024-08-03T15:29:16.336Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:29:18.049Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:29:18.049Z
+2024-08-03T15:29:18.244Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=38732
+2024-08-03T15:29:18.244Z [INFO]  backend/local: plan calling Plan
+2024-08-03T15:29:18.249Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:29:19.923Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:29:19.923Z
+2024-08-03T15:29:20.109Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:29:20.114Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:29:20.114Z
+2024-08-03T15:29:20.114Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:29:20.114Z
+2024-08-03T15:29:20.114Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:29:20.114Z
+2024-08-03T15:29:20.114Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:29:20.114Z
+2024-08-03T15:29:20.115Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:29:20.114Z
+2024-08-03T15:29:20.115Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:29:20.114Z
+2024-08-03T15:29:20.115Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:29:20.114Z
+2024-08-03T15:29:21.734Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:29:21.734Z
+2024-08-03T15:29:21.734Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:29:21.734Z
+2024-08-03T15:29:30.627Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .bgp_community: planned value cty.StringVal("") for a non-computed attribute
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+      - .flow_timeout_in_minutes: planned value cty.NumberIntVal(0) for a non-computed attribute
+2024-08-03T15:29:30.641Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=38758
+2024-08-03T15:29:30.645Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:29:32.264Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:29:32.264Z
+2024-08-03T15:29:32.430Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:29:32.432Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:29:32.432Z
+2024-08-03T15:29:32.432Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:29:32.432Z
+2024-08-03T15:29:32.432Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:29:32.432Z
+2024-08-03T15:29:32.432Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:29:32.432Z
+2024-08-03T15:29:32.432Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:29:32.432Z
+2024-08-03T15:29:32.432Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:29:32.432Z
+2024-08-03T15:29:32.433Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:29:32.432Z
+2024-08-03T15:29:33.477Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:29:33.477Z
+2024-08-03T15:29:33.477Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:29:33.477Z
+2024-08-03T15:29:39.838Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=38899
+2024-08-03T15:29:39.839Z [INFO]  backend/local: plan operation completed
+2024-08-03T15:30:12.744Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:30:12.745Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:30:12.745Z [INFO]  CLI args: []string{"terraform", "apply", "-destroy"}
+2024-08-03T15:30:12.746Z [INFO]  CLI command args: []string{"apply", "-destroy"}
+2024-08-03T15:30:13.761Z [INFO]  backend/local: starting Apply operation
+2024-08-03T15:30:13.783Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:30:15.375Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:30:15.375Z
+2024-08-03T15:30:15.507Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=39196
+2024-08-03T15:30:15.512Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:30:17.100Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:30:17.100Z
+2024-08-03T15:30:17.293Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=39231
+2024-08-03T15:30:17.293Z [INFO]  backend/local: apply calling Plan
+2024-08-03T15:30:17.298Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:30:18.997Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:30:18.997Z
+2024-08-03T15:30:19.176Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:30:19.177Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:30:19.177Z
+2024-08-03T15:30:19.178Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:30:19.177Z
+2024-08-03T15:30:19.178Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:30:19.177Z
+2024-08-03T15:30:19.179Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:30:19.177Z
+2024-08-03T15:30:19.179Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:30:19.177Z
+2024-08-03T15:30:19.179Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:30:19.177Z
+2024-08-03T15:30:19.179Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:30:19.178Z
+2024-08-03T15:30:20.414Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:30:20.414Z
+2024-08-03T15:30:20.414Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:30:20.414Z
+2024-08-03T15:30:28.114Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .bgp_community: planned value cty.StringVal("") for a non-computed attribute
+      - .flow_timeout_in_minutes: planned value cty.NumberIntVal(0) for a non-computed attribute
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+2024-08-03T15:30:28.130Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=39268
+2024-08-03T15:30:28.135Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:30:29.891Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:30:29.891Z
+2024-08-03T15:30:30.073Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:30:30.074Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:30:30.074Z
+2024-08-03T15:30:30.074Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:30:30.074Z
+2024-08-03T15:30:30.075Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:30:30.074Z
+2024-08-03T15:30:30.075Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:30:30.074Z
+2024-08-03T15:30:30.075Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:30:30.074Z
+2024-08-03T15:30:30.075Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:30:30.074Z
+2024-08-03T15:30:30.075Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:30:30.074Z
+2024-08-03T15:30:31.300Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:30:31.300Z
+2024-08-03T15:30:31.301Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:30:31.300Z
+2024-08-03T15:30:37.757Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=39397
+2024-08-03T15:30:41.476Z [INFO]  backend/local: apply calling Apply
+2024-08-03T15:30:41.482Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:30:43.225Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:30:43.225Z
+2024-08-03T15:30:43.417Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:30:43.417Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:30:43.417Z
+2024-08-03T15:30:43.418Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:30:43.417Z
+2024-08-03T15:30:43.418Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:30:43.417Z
+2024-08-03T15:30:43.418Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:30:43.417Z
+2024-08-03T15:30:43.418Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:30:43.417Z
+2024-08-03T15:30:43.418Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:30:43.417Z
+2024-08-03T15:30:43.418Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:30:43.417Z
+2024-08-03T15:30:44.618Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:30:44.618Z
+2024-08-03T15:30:44.618Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:30:44.618Z
+2024-08-03T15:30:51.170Z [INFO]  Starting apply for azurerm_virtual_network.test-rg-vnet
+2024-08-03T15:31:01.886Z [INFO]  Starting apply for azurerm_resource_group.test-rg
+2024-08-03T15:31:17.288Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=39572
+2024-08-03T15:31:28.188Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:31:28.189Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:31:28.189Z [INFO]  CLI args: []string{"terraform", "apply", "--auto-aprove"}
+2024-08-03T15:31:28.190Z [INFO]  CLI command args: []string{"apply", "--auto-aprove"}
+2024-08-03T15:31:40.944Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:31:40.945Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:31:40.945Z [INFO]  CLI args: []string{"terraform", "apply", "-help"}
+2024-08-03T15:31:40.946Z [INFO]  CLI command args: []string{"apply", "-help"}
+2024-08-03T15:32:06.032Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:32:06.032Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:32:06.032Z [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2024-08-03T15:32:06.033Z [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2024-08-03T15:32:07.039Z [INFO]  backend/local: starting Apply operation
+2024-08-03T15:32:07.064Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:32:08.701Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:32:08.701Z
+2024-08-03T15:32:08.857Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=40166
+2024-08-03T15:32:08.863Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:32:10.627Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:32:10.627Z
+2024-08-03T15:32:10.815Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=40200
+2024-08-03T15:32:10.816Z [INFO]  backend/local: apply calling Plan
+2024-08-03T15:32:10.820Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:32:12.487Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:32:12.487Z
+2024-08-03T15:32:12.654Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:32:12.655Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:32:12.655Z
+2024-08-03T15:32:12.655Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:32:12.655Z
+2024-08-03T15:32:12.656Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:32:12.655Z
+2024-08-03T15:32:12.656Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:32:12.655Z
+2024-08-03T15:32:12.656Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:32:12.655Z
+2024-08-03T15:32:12.656Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:32:12.655Z
+2024-08-03T15:32:12.656Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:32:12.655Z
+2024-08-03T15:32:13.868Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:32:13.868Z
+2024-08-03T15:32:13.868Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:32:13.868Z
+2024-08-03T15:32:21.584Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_resource_group.test-rg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .location: planned value cty.StringVal("westeurope") does not match config value cty.StringVal("West Europe")
+2024-08-03T15:32:21.599Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=40226
+2024-08-03T15:32:21.606Z [INFO]  backend/local: apply calling Apply
+2024-08-03T15:32:21.610Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:32:23.229Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:32:23.229Z
+2024-08-03T15:32:23.404Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:32:23.405Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:32:23.404Z
+2024-08-03T15:32:23.405Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:32:23.404Z
+2024-08-03T15:32:23.405Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:32:23.404Z
+2024-08-03T15:32:23.405Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:32:23.404Z
+2024-08-03T15:32:23.405Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:32:23.404Z
+2024-08-03T15:32:23.405Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:32:23.405Z
+2024-08-03T15:32:23.405Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:32:23.405Z
+2024-08-03T15:32:24.453Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:32:24.453Z
+2024-08-03T15:32:24.453Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:32:24.453Z
+2024-08-03T15:32:31.533Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_resource_group.test-rg, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .location: planned value cty.StringVal("westeurope") does not match config value cty.StringVal("West Europe")
+2024-08-03T15:32:31.533Z [INFO]  Starting apply for azurerm_resource_group.test-rg
+2024-08-03T15:32:32.710Z [INFO]  Starting apply for azurerm_virtual_network.test-rg-vnet
+2024-08-03T15:32:37.612Z [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/azurerm\"]" produced an unexpected new value for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .bgp_community: was null, but now cty.StringVal("")
+      - .edge_zone: was null, but now cty.StringVal("")
+      - .flow_timeout_in_minutes: was null, but now cty.NumberIntVal(0)
+2024-08-03T15:32:37.630Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=40366
+2024-08-03T15:42:35.176Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:42:35.176Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:42:35.177Z [INFO]  CLI args: []string{"terraform", "fmt"}
+2024-08-03T15:42:35.177Z [INFO]  CLI command args: []string{"fmt"}
+2024-08-03T15:42:45.328Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:42:45.328Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:42:45.329Z [INFO]  CLI args: []string{"terraform", "plan"}
+2024-08-03T15:42:45.330Z [INFO]  CLI command args: []string{"plan"}
+2024-08-03T15:42:46.449Z [INFO]  backend/local: starting Plan operation
+2024-08-03T15:42:46.480Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:42:48.237Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:42:48.237Z
+2024-08-03T15:42:48.382Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=42174
+2024-08-03T15:42:48.387Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:42:50.057Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:42:50.057Z
+2024-08-03T15:42:50.239Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=42224
+2024-08-03T15:42:50.240Z [INFO]  backend/local: plan calling Plan
+2024-08-03T15:42:50.244Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:42:51.884Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:42:51.884Z
+2024-08-03T15:42:52.051Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:42:52.053Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:42:52.053Z
+2024-08-03T15:42:52.053Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:42:52.053Z
+2024-08-03T15:42:52.053Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:42:52.053Z
+2024-08-03T15:42:52.053Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:42:52.053Z
+2024-08-03T15:42:52.053Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:42:52.053Z
+2024-08-03T15:42:52.054Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:42:52.053Z
+2024-08-03T15:42:52.054Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:42:52.053Z
+2024-08-03T15:42:53.169Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:42:53.169Z
+2024-08-03T15:42:53.169Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:42:53.169Z
+2024-08-03T15:43:00.903Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .bgp_community: planned value cty.StringVal("") for a non-computed attribute
+      - .flow_timeout_in_minutes: planned value cty.NumberIntVal(0) for a non-computed attribute
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+2024-08-03T15:43:00.906Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_subnet.test-rg-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enforce_private_link_service_network_policies: planned value cty.False for a non-computed attribute
+      - .enforce_private_link_endpoint_network_policies: planned value cty.False for a non-computed attribute
+2024-08-03T15:43:00.919Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=42256
+2024-08-03T15:43:00.920Z [INFO]  backend/local: plan operation completed
+2024-08-03T15:43:19.993Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:43:19.994Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:43:19.994Z [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2024-08-03T15:43:19.995Z [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2024-08-03T15:43:21.004Z [INFO]  backend/local: starting Apply operation
+2024-08-03T15:43:21.030Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:43:22.661Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:43:22.661Z
+2024-08-03T15:43:22.786Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=42496
+2024-08-03T15:43:22.790Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:43:24.509Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:43:24.509Z
+2024-08-03T15:43:24.719Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=42545
+2024-08-03T15:43:24.720Z [INFO]  backend/local: apply calling Plan
+2024-08-03T15:43:24.725Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:43:26.424Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:43:26.424Z
+2024-08-03T15:43:26.626Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:43:26.627Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:43:26.627Z
+2024-08-03T15:43:26.627Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:43:26.627Z
+2024-08-03T15:43:26.627Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:43:26.627Z
+2024-08-03T15:43:26.628Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:43:26.627Z
+2024-08-03T15:43:26.628Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:43:26.627Z
+2024-08-03T15:43:26.628Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:43:26.627Z
+2024-08-03T15:43:26.628Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:43:26.627Z
+2024-08-03T15:43:27.811Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:43:27.811Z
+2024-08-03T15:43:27.811Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:43:27.811Z
+2024-08-03T15:43:34.604Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .bgp_community: planned value cty.StringVal("") for a non-computed attribute
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+      - .flow_timeout_in_minutes: planned value cty.NumberIntVal(0) for a non-computed attribute
+2024-08-03T15:43:34.606Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_subnet.test-rg-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enforce_private_link_endpoint_network_policies: planned value cty.False for a non-computed attribute
+      - .enforce_private_link_service_network_policies: planned value cty.False for a non-computed attribute
+2024-08-03T15:43:34.620Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=42577
+2024-08-03T15:43:34.629Z [INFO]  backend/local: apply calling Apply
+2024-08-03T15:43:34.634Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:43:36.368Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:43:36.368Z
+2024-08-03T15:43:36.563Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:43:36.564Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:43:36.564Z
+2024-08-03T15:43:36.564Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:43:36.564Z
+2024-08-03T15:43:36.565Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:43:36.564Z
+2024-08-03T15:43:36.565Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:43:36.564Z
+2024-08-03T15:43:36.565Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:43:36.564Z
+2024-08-03T15:43:36.565Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:43:36.564Z
+2024-08-03T15:43:36.565Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:43:36.564Z
+2024-08-03T15:43:37.757Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:43:37.757Z
+2024-08-03T15:43:37.757Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:43:37.757Z
+2024-08-03T15:43:44.708Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_subnet.test-rg-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enforce_private_link_service_network_policies: planned value cty.False for a non-computed attribute
+      - .enforce_private_link_endpoint_network_policies: planned value cty.False for a non-computed attribute
+2024-08-03T15:43:44.708Z [INFO]  Starting apply for azurerm_subnet.test-rg-subnet
+2024-08-03T15:43:44.709Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: preparing arguments for Azure ARM Subnet creation.: timestamp=2024-08-03T15:43:44.709Z
+2024-08-03T15:43:49.573Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=42696
+2024-08-03T15:48:21.945Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:48:21.946Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:48:21.946Z [INFO]  CLI args: []string{"terraform", "plan"}
+2024-08-03T15:48:21.947Z [INFO]  CLI command args: []string{"plan"}
+2024-08-03T15:48:22.962Z [INFO]  backend/local: starting Plan operation
+2024-08-03T15:48:22.990Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:48:23.022Z [ERROR] provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=43608 error="signal: interrupt"
+2024-08-03T15:48:23.032Z [WARN]  provider: plugin failed to exit gracefully
+2024-08-03T15:48:24.956Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:48:24.956Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:48:24.956Z [INFO]  CLI args: []string{"terraform", "fmt"}
+2024-08-03T15:48:24.957Z [INFO]  CLI command args: []string{"fmt"}
+2024-08-03T15:48:26.824Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:48:26.825Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:48:26.825Z [INFO]  CLI args: []string{"terraform", "plan"}
+2024-08-03T15:48:26.826Z [INFO]  CLI command args: []string{"plan"}
+2024-08-03T15:48:27.842Z [INFO]  backend/local: starting Plan operation
+2024-08-03T15:48:27.870Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:48:29.635Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:48:29.635Z
+2024-08-03T15:48:29.788Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=43693
+2024-08-03T15:48:29.793Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:48:31.410Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:48:31.410Z
+2024-08-03T15:48:31.616Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=43732
+2024-08-03T15:48:31.616Z [INFO]  backend/local: plan calling Plan
+2024-08-03T15:48:31.621Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:48:33.327Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:48:33.327Z
+2024-08-03T15:48:33.506Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:48:33.508Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:48:33.508Z
+2024-08-03T15:48:33.508Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:48:33.508Z
+2024-08-03T15:48:33.508Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:48:33.508Z
+2024-08-03T15:48:33.509Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:48:33.508Z
+2024-08-03T15:48:33.509Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:48:33.508Z
+2024-08-03T15:48:33.509Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:48:33.508Z
+2024-08-03T15:48:33.509Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:48:33.508Z
+2024-08-03T15:48:34.797Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:48:34.797Z
+2024-08-03T15:48:34.798Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:48:34.797Z
+2024-08-03T15:48:41.513Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an unexpected new value for azurerm_virtual_network.test-rg-vnet during refresh.
+      - .subnet: actual set element cty.ObjectVal(map[string]cty.Value{"address_prefix":cty.StringVal("10.0.1.0/24"), "id":cty.StringVal("/subscriptions/ca9de45d-3452-4962-aa85-2d5463e0a2b4/resourceGroups/test-rg/providers/Microsoft.Network/virtualNetworks/test-rg-vnet/subnets/test-rg-subnet"), "name":cty.StringVal("test-rg-subnet"), "security_group":cty.StringVal("")}) does not correlate with any element in plan
+      - .subnet: length changed from 0 to 1
+2024-08-03T15:48:41.517Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .flow_timeout_in_minutes: planned value cty.NumberIntVal(0) for a non-computed attribute
+      - .bgp_community: planned value cty.StringVal("") for a non-computed attribute
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+2024-08-03T15:48:41.706Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an unexpected new value for azurerm_subnet.test-rg-subnet during refresh.
+      - .service_endpoint_policy_ids: was null, but now cty.SetValEmpty(cty.String)
+      - .service_endpoints: was null, but now cty.SetValEmpty(cty.String)
+2024-08-03T15:48:41.707Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_subnet.test-rg-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enforce_private_link_service_network_policies: planned value cty.False for a non-computed attribute
+      - .service_endpoint_policy_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .service_endpoints: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .enforce_private_link_endpoint_network_policies: planned value cty.False for a non-computed attribute
+2024-08-03T15:48:41.721Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=43758
+2024-08-03T15:48:41.722Z [INFO]  backend/local: plan operation completed
+2024-08-03T15:51:57.356Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:51:57.356Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:51:57.356Z [INFO]  CLI args: []string{"terraform", "fmt"}
+2024-08-03T15:51:57.357Z [INFO]  CLI command args: []string{"fmt"}
+2024-08-03T15:52:00.260Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:52:00.260Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:52:00.260Z [INFO]  CLI args: []string{"terraform", "plan"}
+2024-08-03T15:52:00.261Z [INFO]  CLI command args: []string{"plan"}
+2024-08-03T15:52:01.346Z [INFO]  backend/local: starting Plan operation
+2024-08-03T15:52:01.376Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:52:03.117Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:52:03.117Z
+2024-08-03T15:52:03.269Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=44485
+2024-08-03T15:52:03.274Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:52:04.794Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:52:04.794Z
+2024-08-03T15:52:05.006Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=44533
+2024-08-03T15:52:05.006Z [INFO]  backend/local: plan calling Plan
+2024-08-03T15:52:05.011Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:52:06.778Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:52:06.778Z
+2024-08-03T15:52:06.959Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:52:06.960Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:52:06.960Z
+2024-08-03T15:52:06.960Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:52:06.960Z
+2024-08-03T15:52:06.961Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:52:06.960Z
+2024-08-03T15:52:06.961Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:52:06.960Z
+2024-08-03T15:52:06.961Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:52:06.960Z
+2024-08-03T15:52:06.961Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:52:06.960Z
+2024-08-03T15:52:06.961Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:52:06.960Z
+2024-08-03T15:52:08.255Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:52:08.255Z
+2024-08-03T15:52:08.255Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:52:08.255Z
+2024-08-03T15:52:15.816Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an unexpected new value for azurerm_virtual_network.test-rg-vnet during refresh.
+      - .subnet: actual set element cty.ObjectVal(map[string]cty.Value{"address_prefix":cty.StringVal("10.0.1.0/24"), "id":cty.StringVal("/subscriptions/ca9de45d-3452-4962-aa85-2d5463e0a2b4/resourceGroups/test-rg/providers/Microsoft.Network/virtualNetworks/test-rg-vnet/subnets/test-rg-subnet"), "name":cty.StringVal("test-rg-subnet"), "security_group":cty.StringVal("")}) does not correlate with any element in plan
+      - .subnet: length changed from 0 to 1
+2024-08-03T15:52:15.819Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .bgp_community: planned value cty.StringVal("") for a non-computed attribute
+      - .flow_timeout_in_minutes: planned value cty.NumberIntVal(0) for a non-computed attribute
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+2024-08-03T15:52:16.011Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an unexpected new value for azurerm_subnet.test-rg-subnet during refresh.
+      - .service_endpoint_policy_ids: was null, but now cty.SetValEmpty(cty.String)
+      - .service_endpoints: was null, but now cty.SetValEmpty(cty.String)
+2024-08-03T15:52:16.013Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_subnet.test-rg-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enforce_private_link_service_network_policies: planned value cty.False for a non-computed attribute
+      - .enforce_private_link_endpoint_network_policies: planned value cty.False for a non-computed attribute
+      - .service_endpoint_policy_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .service_endpoints: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+2024-08-03T15:52:16.026Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=44564
+2024-08-03T15:52:16.027Z [INFO]  backend/local: plan operation completed
+2024-08-03T15:52:20.264Z [INFO]  Terraform version: 1.9.3
+2024-08-03T15:52:20.264Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T15:52:20.264Z [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2024-08-03T15:52:20.265Z [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2024-08-03T15:52:21.270Z [INFO]  backend/local: starting Apply operation
+2024-08-03T15:52:21.296Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:52:22.900Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:52:22.900Z
+2024-08-03T15:52:23.029Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=44734
+2024-08-03T15:52:23.033Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:52:24.620Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:52:24.620Z
+2024-08-03T15:52:24.823Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=44785
+2024-08-03T15:52:24.823Z [INFO]  backend/local: apply calling Plan
+2024-08-03T15:52:24.828Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:52:26.212Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:52:26.212Z
+2024-08-03T15:52:26.376Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:52:26.377Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:52:26.377Z
+2024-08-03T15:52:26.377Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:52:26.377Z
+2024-08-03T15:52:26.377Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:52:26.377Z
+2024-08-03T15:52:26.377Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:52:26.377Z
+2024-08-03T15:52:26.378Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:52:26.377Z
+2024-08-03T15:52:26.378Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:52:26.377Z
+2024-08-03T15:52:26.378Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:52:26.377Z
+2024-08-03T15:52:27.399Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:52:27.399Z
+2024-08-03T15:52:27.400Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:52:27.399Z
+2024-08-03T15:52:34.343Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an unexpected new value for azurerm_virtual_network.test-rg-vnet during refresh.
+      - .subnet: actual set element cty.ObjectVal(map[string]cty.Value{"address_prefix":cty.StringVal("10.0.1.0/24"), "id":cty.StringVal("/subscriptions/ca9de45d-3452-4962-aa85-2d5463e0a2b4/resourceGroups/test-rg/providers/Microsoft.Network/virtualNetworks/test-rg-vnet/subnets/test-rg-subnet"), "name":cty.StringVal("test-rg-subnet"), "security_group":cty.StringVal("")}) does not correlate with any element in plan
+      - .subnet: length changed from 0 to 1
+2024-08-03T15:52:34.354Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+      - .flow_timeout_in_minutes: planned value cty.NumberIntVal(0) for a non-computed attribute
+      - .bgp_community: planned value cty.StringVal("") for a non-computed attribute
+2024-08-03T15:52:34.779Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an unexpected new value for azurerm_subnet.test-rg-subnet during refresh.
+      - .service_endpoint_policy_ids: was null, but now cty.SetValEmpty(cty.String)
+      - .service_endpoints: was null, but now cty.SetValEmpty(cty.String)
+2024-08-03T15:52:34.781Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_subnet.test-rg-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .service_endpoint_policy_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .enforce_private_link_endpoint_network_policies: planned value cty.False for a non-computed attribute
+      - .enforce_private_link_service_network_policies: planned value cty.False for a non-computed attribute
+      - .service_endpoints: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+2024-08-03T15:52:34.798Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=44811
+2024-08-03T15:52:34.809Z [INFO]  backend/local: apply calling Apply
+2024-08-03T15:52:34.815Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T15:52:36.548Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T15:52:36.548Z
+2024-08-03T15:52:36.733Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T15:52:36.734Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T15:52:36.734Z
+2024-08-03T15:52:36.734Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:52:36.734Z
+2024-08-03T15:52:36.735Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T15:52:36.734Z
+2024-08-03T15:52:36.735Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T15:52:36.734Z
+2024-08-03T15:52:36.735Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:52:36.734Z
+2024-08-03T15:52:36.735Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T15:52:36.734Z
+2024-08-03T15:52:36.735Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T15:52:36.734Z
+2024-08-03T15:52:37.938Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T15:52:37.938Z
+2024-08-03T15:52:37.938Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T15:52:37.938Z
+2024-08-03T15:52:44.233Z [INFO]  Starting apply for azurerm_network_security_group.test-rg-nsg
+2024-08-03T15:52:46.326Z [INFO]  Starting apply for azurerm_network_security_rule.test-rg-nsg-rule1
+2024-08-03T15:52:48.437Z [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/azurerm\"]" produced an unexpected new value for azurerm_network_security_rule.test-rg-nsg-rule1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: was null, but now cty.StringVal("")
+2024-08-03T15:52:48.455Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=44930
+2024-08-03T16:10:19.112Z [INFO]  Terraform version: 1.9.3
+2024-08-03T16:10:19.113Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T16:10:19.113Z [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2024-08-03T16:10:19.114Z [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2024-08-03T16:10:20.137Z [INFO]  backend/local: starting Apply operation
+2024-08-03T16:10:20.164Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:10:21.808Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:10:21.807Z
+2024-08-03T16:10:21.939Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=47774
+2024-08-03T16:10:21.944Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:10:23.563Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:10:23.563Z
+2024-08-03T16:10:23.751Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=47810
+2024-08-03T16:10:23.752Z [INFO]  backend/local: apply calling Plan
+2024-08-03T16:10:23.757Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:10:25.350Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:10:25.350Z
+2024-08-03T16:10:25.516Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T16:10:25.518Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T16:10:25.517Z
+2024-08-03T16:10:25.518Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:10:25.518Z
+2024-08-03T16:10:25.518Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:10:25.518Z
+2024-08-03T16:10:25.518Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T16:10:25.518Z
+2024-08-03T16:10:25.518Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:10:25.518Z
+2024-08-03T16:10:25.518Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:10:25.518Z
+2024-08-03T16:10:25.519Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T16:10:25.518Z
+2024-08-03T16:10:26.722Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T16:10:26.722Z
+2024-08-03T16:10:26.722Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T16:10:26.722Z
+2024-08-03T16:10:34.030Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+      - .bgp_community: planned value cty.StringVal("") for a non-computed attribute
+      - .flow_timeout_in_minutes: planned value cty.NumberIntVal(0) for a non-computed attribute
+2024-08-03T16:10:34.056Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an unexpected new value for azurerm_network_security_group.test-rg-nsg during refresh.
+      - .security_rule: actual set element cty.ObjectVal(map[string]cty.Value{"access":cty.StringVal("Allow"), "description":cty.StringVal(""), "destination_address_prefix":cty.StringVal("*"), "destination_address_prefixes":cty.SetValEmpty(cty.String), "destination_application_security_group_ids":cty.SetValEmpty(cty.String), "destination_port_range":cty.StringVal("*"), "destination_port_ranges":cty.SetValEmpty(cty.String), "direction":cty.StringVal("Inbound"), "name":cty.StringVal("rule1"), "priority":cty.NumberIntVal(100), "protocol":cty.StringVal("*"), "source_address_prefix":cty.StringVal("188.122.202.31/32"), "source_address_prefixes":cty.SetValEmpty(cty.String), "source_application_security_group_ids":cty.SetValEmpty(cty.String), "source_port_range":cty.StringVal("*"), "source_port_ranges":cty.SetValEmpty(cty.String)}) does not correlate with any element in plan
+      - .security_rule: length changed from 0 to 1
+2024-08-03T16:10:34.194Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_subnet.test-rg-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enforce_private_link_endpoint_network_policies: planned value cty.False for a non-computed attribute
+      - .enforce_private_link_service_network_policies: planned value cty.False for a non-computed attribute
+      - .service_endpoint_policy_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .service_endpoints: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+2024-08-03T16:10:34.262Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an unexpected new value for azurerm_network_security_rule.test-rg-nsg-rule1 during refresh.
+      - .destination_port_ranges: was null, but now cty.SetValEmpty(cty.String)
+      - .destination_address_prefixes: was null, but now cty.SetValEmpty(cty.String)
+      - .destination_application_security_group_ids: was null, but now cty.SetValEmpty(cty.String)
+      - .source_port_ranges: was null, but now cty.SetValEmpty(cty.String)
+      - .source_address_prefixes: was null, but now cty.SetValEmpty(cty.String)
+      - .source_application_security_group_ids: was null, but now cty.SetValEmpty(cty.String)
+2024-08-03T16:10:34.264Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_network_security_rule.test-rg-nsg-rule1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: planned value cty.StringVal("") for a non-computed attribute
+      - .source_address_prefixes: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .source_application_security_group_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .destination_port_ranges: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .destination_address_prefixes: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .destination_application_security_group_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .source_port_ranges: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+2024-08-03T16:10:34.279Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=47837
+2024-08-03T16:10:34.291Z [INFO]  backend/local: apply calling Apply
+2024-08-03T16:10:34.296Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:10:36.084Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:10:36.084Z
+2024-08-03T16:10:36.262Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T16:10:36.262Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T16:10:36.262Z
+2024-08-03T16:10:36.263Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:10:36.262Z
+2024-08-03T16:10:36.263Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:10:36.262Z
+2024-08-03T16:10:36.263Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T16:10:36.262Z
+2024-08-03T16:10:36.263Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:10:36.262Z
+2024-08-03T16:10:36.263Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:10:36.262Z
+2024-08-03T16:10:36.263Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T16:10:36.262Z
+2024-08-03T16:10:37.429Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T16:10:37.429Z
+2024-08-03T16:10:37.430Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T16:10:37.429Z
+2024-08-03T16:10:43.212Z [INFO]  Starting apply for azurerm_subnet_network_security_group_association.test-rg-nsg-ass
+2024-08-03T16:10:43.213Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: preparing arguments for Subnet <-> Network Security Group Association creation.: timestamp=2024-08-03T16:10:43.212Z
+2024-08-03T16:10:47.262Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=47974
+2024-08-03T16:13:21.070Z [INFO]  Terraform version: 1.9.3
+2024-08-03T16:13:21.070Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T16:13:21.070Z [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2024-08-03T16:13:21.071Z [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2024-08-03T16:13:22.080Z [INFO]  backend/local: starting Apply operation
+2024-08-03T16:13:22.110Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:13:23.780Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:13:23.780Z
+2024-08-03T16:13:23.939Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=48585
+2024-08-03T16:13:23.945Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:13:25.624Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:13:25.624Z
+2024-08-03T16:13:25.838Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=48622
+2024-08-03T16:13:25.839Z [INFO]  backend/local: apply calling Plan
+2024-08-03T16:13:25.844Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:13:27.564Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:13:27.564Z
+2024-08-03T16:13:27.752Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T16:13:27.753Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T16:13:27.753Z
+2024-08-03T16:13:27.753Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:13:27.753Z
+2024-08-03T16:13:27.753Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:13:27.753Z
+2024-08-03T16:13:27.753Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T16:13:27.753Z
+2024-08-03T16:13:27.753Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:13:27.753Z
+2024-08-03T16:13:27.754Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:13:27.753Z
+2024-08-03T16:13:27.754Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T16:13:27.753Z
+2024-08-03T16:13:28.955Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T16:13:28.955Z
+2024-08-03T16:13:28.955Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T16:13:28.955Z
+2024-08-03T16:13:35.066Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_public_ip.test-rg-publicip1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .idle_timeout_in_minutes: planned value cty.NumberIntVal(4) for a non-computed attribute
+      - .sku_tier: planned value cty.StringVal("Regional") for a non-computed attribute
+      - .ip_version: planned value cty.StringVal("IPv4") for a non-computed attribute
+      - .sku: planned value cty.StringVal("Basic") for a non-computed attribute
+2024-08-03T16:13:35.292Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an unexpected new value for azurerm_virtual_network.test-rg-vnet during refresh.
+      - .subnet: planned set element cty.ObjectVal(map[string]cty.Value{"address_prefix":cty.StringVal("10.0.1.0/24"), "id":cty.StringVal("/subscriptions/ca9de45d-3452-4962-aa85-2d5463e0a2b4/resourceGroups/test-rg/providers/Microsoft.Network/virtualNetworks/test-rg-vnet/subnets/test-rg-subnet"), "name":cty.StringVal("test-rg-subnet"), "security_group":cty.StringVal("")}) does not correlate with any element in actual
+2024-08-03T16:13:35.294Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+      - .flow_timeout_in_minutes: planned value cty.NumberIntVal(0) for a non-computed attribute
+      - .bgp_community: planned value cty.StringVal("") for a non-computed attribute
+2024-08-03T16:13:35.480Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_subnet.test-rg-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enforce_private_link_endpoint_network_policies: planned value cty.False for a non-computed attribute
+      - .enforce_private_link_service_network_policies: planned value cty.False for a non-computed attribute
+      - .service_endpoints: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .service_endpoint_policy_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+2024-08-03T16:13:35.755Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_network_security_rule.test-rg-nsg-rule1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: planned value cty.StringVal("") for a non-computed attribute
+      - .destination_address_prefixes: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .source_port_ranges: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .source_application_security_group_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .source_address_prefixes: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .destination_application_security_group_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .destination_port_ranges: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+2024-08-03T16:13:35.772Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=48647
+2024-08-03T16:13:35.783Z [INFO]  backend/local: apply calling Apply
+2024-08-03T16:13:35.790Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:13:37.535Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:13:37.535Z
+2024-08-03T16:13:37.725Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T16:13:37.726Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T16:13:37.726Z
+2024-08-03T16:13:37.726Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:13:37.726Z
+2024-08-03T16:13:37.726Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:13:37.726Z
+2024-08-03T16:13:37.726Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T16:13:37.726Z
+2024-08-03T16:13:37.726Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:13:37.726Z
+2024-08-03T16:13:37.727Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:13:37.726Z
+2024-08-03T16:13:37.727Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T16:13:37.726Z
+2024-08-03T16:13:38.882Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T16:13:38.882Z
+2024-08-03T16:13:38.882Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T16:13:38.882Z
+2024-08-03T16:13:45.018Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_public_ip.test-rg-publicip1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .idle_timeout_in_minutes: planned value cty.NumberIntVal(4) for a non-computed attribute
+      - .ip_version: planned value cty.StringVal("IPv4") for a non-computed attribute
+      - .sku_tier: planned value cty.StringVal("Regional") for a non-computed attribute
+      - .sku: planned value cty.StringVal("Basic") for a non-computed attribute
+2024-08-03T16:13:45.018Z [INFO]  Starting apply for azurerm_public_ip.test-rg-publicip1
+2024-08-03T16:13:45.019Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: preparing arguments for AzureRM Public IP creation.: timestamp=2024-08-03T16:13:45.019Z
+2024-08-03T16:13:47.580Z [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/azurerm\"]" produced an unexpected new value for azurerm_public_ip.test-rg-publicip1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .edge_zone: was null, but now cty.StringVal("")
+2024-08-03T16:13:47.600Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=48783
+2024-08-03T16:17:32.908Z [INFO]  Terraform version: 1.9.3
+2024-08-03T16:17:32.908Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T16:17:32.908Z [INFO]  CLI args: []string{"terraform", "plan"}
+2024-08-03T16:17:32.909Z [INFO]  CLI command args: []string{"plan"}
+2024-08-03T16:17:33.966Z [INFO]  backend/local: starting Plan operation
+2024-08-03T16:17:33.994Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:17:35.637Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:17:35.637Z
+2024-08-03T16:17:35.776Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=49568
+2024-08-03T16:17:35.782Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:17:37.441Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:17:37.441Z
+2024-08-03T16:17:37.617Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=49604
+2024-08-03T16:17:37.617Z [INFO]  backend/local: plan calling Plan
+2024-08-03T16:17:37.622Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:17:39.236Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:17:39.236Z
+2024-08-03T16:17:39.411Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T16:17:39.413Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T16:17:39.413Z
+2024-08-03T16:17:39.413Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:17:39.413Z
+2024-08-03T16:17:39.413Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:17:39.413Z
+2024-08-03T16:17:39.413Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T16:17:39.413Z
+2024-08-03T16:17:39.413Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:17:39.413Z
+2024-08-03T16:17:39.413Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:17:39.413Z
+2024-08-03T16:17:39.414Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T16:17:39.413Z
+2024-08-03T16:17:40.645Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T16:17:40.645Z
+2024-08-03T16:17:40.645Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T16:17:40.645Z
+2024-08-03T16:17:47.537Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an unexpected new value for azurerm_public_ip.test-rg-publicip1 during refresh.
+      - .ip_tags: was null, but now cty.MapValEmpty(cty.String)
+      - .zones: was null, but now cty.SetValEmpty(cty.String)
+2024-08-03T16:17:47.540Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_public_ip.test-rg-publicip1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+      - .sku: planned value cty.StringVal("Basic") for a non-computed attribute
+      - .sku_tier: planned value cty.StringVal("Regional") for a non-computed attribute
+      - .zones: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .idle_timeout_in_minutes: planned value cty.NumberIntVal(4) for a non-computed attribute
+      - .ip_tags: planned value cty.MapValEmpty(cty.String) for a non-computed attribute
+      - .ip_version: planned value cty.StringVal("IPv4") for a non-computed attribute
+2024-08-03T16:17:47.635Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .flow_timeout_in_minutes: planned value cty.NumberIntVal(0) for a non-computed attribute
+      - .bgp_community: planned value cty.StringVal("") for a non-computed attribute
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+2024-08-03T16:17:47.693Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_network_security_rule.test-rg-nsg-rule1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .destination_address_prefixes: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .destination_application_security_group_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .source_port_ranges: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .description: planned value cty.StringVal("") for a non-computed attribute
+      - .destination_port_ranges: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .source_address_prefixes: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .source_application_security_group_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+2024-08-03T16:17:47.888Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_subnet.test-rg-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .service_endpoint_policy_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .enforce_private_link_service_network_policies: planned value cty.False for a non-computed attribute
+      - .service_endpoints: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .enforce_private_link_endpoint_network_policies: planned value cty.False for a non-computed attribute
+2024-08-03T16:17:47.891Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_network_interface.test-rg-nic, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enable_ip_forwarding: planned value cty.False for a non-computed attribute
+      - .enable_accelerated_networking: planned value cty.False for a non-computed attribute
+      - .ip_configuration[0].private_ip_address_version: planned value cty.StringVal("IPv4") for a non-computed attribute
+2024-08-03T16:17:48.054Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=49630
+2024-08-03T16:17:48.057Z [INFO]  backend/local: plan operation completed
+2024-08-03T16:18:19.393Z [INFO]  Terraform version: 1.9.3
+2024-08-03T16:18:19.394Z [INFO]  Go runtime version: go1.22.5
+2024-08-03T16:18:19.394Z [INFO]  CLI args: []string{"terraform", "apply", "-auto-approve"}
+2024-08-03T16:18:19.395Z [INFO]  CLI command args: []string{"apply", "-auto-approve"}
+2024-08-03T16:18:20.439Z [INFO]  backend/local: starting Apply operation
+2024-08-03T16:18:20.467Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:18:22.077Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:18:22.077Z
+2024-08-03T16:18:22.210Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=49906
+2024-08-03T16:18:22.215Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:18:23.799Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:18:23.799Z
+2024-08-03T16:18:23.979Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=49943
+2024-08-03T16:18:23.980Z [INFO]  backend/local: apply calling Plan
+2024-08-03T16:18:23.985Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:18:25.644Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:18:25.644Z
+2024-08-03T16:18:25.825Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T16:18:25.826Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T16:18:25.826Z
+2024-08-03T16:18:25.826Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:18:25.826Z
+2024-08-03T16:18:25.826Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:18:25.826Z
+2024-08-03T16:18:25.826Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T16:18:25.826Z
+2024-08-03T16:18:25.826Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:18:25.826Z
+2024-08-03T16:18:25.826Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:18:25.826Z
+2024-08-03T16:18:25.827Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T16:18:25.826Z
+2024-08-03T16:18:27.018Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T16:18:27.018Z
+2024-08-03T16:18:27.018Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T16:18:27.018Z
+2024-08-03T16:18:34.586Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an unexpected new value for azurerm_public_ip.test-rg-publicip1 during refresh.
+      - .zones: was null, but now cty.SetValEmpty(cty.String)
+      - .ip_tags: was null, but now cty.MapValEmpty(cty.String)
+2024-08-03T16:18:34.588Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_public_ip.test-rg-publicip1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .idle_timeout_in_minutes: planned value cty.NumberIntVal(4) for a non-computed attribute
+      - .zones: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+      - .ip_version: planned value cty.StringVal("IPv4") for a non-computed attribute
+      - .sku: planned value cty.StringVal("Basic") for a non-computed attribute
+      - .sku_tier: planned value cty.StringVal("Regional") for a non-computed attribute
+      - .ip_tags: planned value cty.MapValEmpty(cty.String) for a non-computed attribute
+2024-08-03T16:18:34.596Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_virtual_network.test-rg-vnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+      - .bgp_community: planned value cty.StringVal("") for a non-computed attribute
+      - .flow_timeout_in_minutes: planned value cty.NumberIntVal(0) for a non-computed attribute
+2024-08-03T16:18:34.861Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_network_security_rule.test-rg-nsg-rule1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .description: planned value cty.StringVal("") for a non-computed attribute
+      - .destination_application_security_group_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .source_address_prefixes: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .destination_port_ranges: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .source_application_security_group_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .source_port_ranges: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .destination_address_prefixes: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+2024-08-03T16:18:34.889Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_subnet.test-rg-subnet, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .service_endpoints: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .enforce_private_link_endpoint_network_policies: planned value cty.False for a non-computed attribute
+      - .enforce_private_link_service_network_policies: planned value cty.False for a non-computed attribute
+      - .service_endpoint_policy_ids: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+2024-08-03T16:18:34.891Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_network_interface.test-rg-nic, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enable_accelerated_networking: planned value cty.False for a non-computed attribute
+      - .enable_ip_forwarding: planned value cty.False for a non-computed attribute
+      - .ip_configuration[0].private_ip_address_version: planned value cty.StringVal("IPv4") for a non-computed attribute
+2024-08-03T16:18:35.074Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=49969
+2024-08-03T16:18:35.086Z [INFO]  backend/local: apply calling Apply
+2024-08-03T16:18:35.093Z [INFO]  provider: configuring client automatic mTLS
+2024-08-03T16:18:36.843Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-03T16:18:36.842Z
+2024-08-03T16:18:37.037Z [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/hashicorp/azurerm\"]" changed the config value, but that value is unused
+2024-08-03T16:18:37.039Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Certificate is applicable for Authentication..: timestamp=2024-08-03T16:18:37.039Z
+2024-08-03T16:18:37.040Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Multi Tenant Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:18:37.039Z
+2024-08-03T16:18:37.040Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Service Principal / Client Secret is applicable for Authentication..: timestamp=2024-08-03T16:18:37.039Z
+2024-08-03T16:18:37.040Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Managed Service Identity is applicable for Authentication..: timestamp=2024-08-03T16:18:37.039Z
+2024-08-03T16:18:37.040Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a Multi-tenant token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:18:37.039Z
+2024-08-03T16:18:37.040Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Testing if Obtaining a token from the Azure CLI is applicable for Authentication..: timestamp=2024-08-03T16:18:37.039Z
+2024-08-03T16:18:37.040Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Using Obtaining a token from the Azure CLI for Authentication: timestamp=2024-08-03T16:18:37.039Z
+2024-08-03T16:18:38.221Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: authenticated object ID cache miss, populating with: "": timestamp=2024-08-03T16:18:38.221Z
+2024-08-03T16:18:38.221Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: Getting OAuth config for endpoint https://login.microsoftonline.com/ with  tenant 6b38c057-8c05-488b-b978-3a6853dc167e: timestamp=2024-08-03T16:18:38.221Z
+2024-08-03T16:18:44.881Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_public_ip.test-rg-publicip1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .edge_zone: planned value cty.StringVal("") for a non-computed attribute
+      - .idle_timeout_in_minutes: planned value cty.NumberIntVal(4) for a non-computed attribute
+      - .ip_version: planned value cty.StringVal("IPv4") for a non-computed attribute
+      - .sku_tier: planned value cty.StringVal("Regional") for a non-computed attribute
+      - .zones: planned value cty.SetValEmpty(cty.String) for a non-computed attribute
+      - .ip_tags: planned value cty.MapValEmpty(cty.String) for a non-computed attribute
+      - .sku: planned value cty.StringVal("Basic") for a non-computed attribute
+2024-08-03T16:18:44.882Z [INFO]  Starting apply for azurerm_public_ip.test-rg-publicip1
+2024-08-03T16:18:44.885Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: preparing arguments for AzureRM Public IP creation.: timestamp=2024-08-03T16:18:44.885Z
+2024-08-03T16:18:55.024Z [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/azurerm\"]" produced an unexpected new value for azurerm_public_ip.test-rg-publicip1, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .ip_address: was cty.StringVal("51.136.17.189"), but now cty.StringVal("")
+2024-08-03T16:18:55.034Z [WARN]  Provider "registry.terraform.io/hashicorp/azurerm" produced an invalid plan for azurerm_network_interface.test-rg-nic, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .enable_accelerated_networking: planned value cty.False for a non-computed attribute
+      - .enable_ip_forwarding: planned value cty.False for a non-computed attribute
+      - .ip_configuration[0].private_ip_address_version: planned value cty.StringVal("IPv4") for a non-computed attribute
+2024-08-03T16:18:55.035Z [INFO]  Starting apply for azurerm_network_interface.test-rg-nic
+2024-08-03T16:18:56.225Z [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/azurerm\"]" produced an unexpected new value for azurerm_network_interface.test-rg-nic, but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .edge_zone: was null, but now cty.StringVal("")
+2024-08-03T16:18:56.246Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=50109
+2024-08-04T18:01:57.409Z [INFO]  Terraform version: 1.9.3
+2024-08-04T18:01:57.410Z [INFO]  Go runtime version: go1.22.5
+2024-08-04T18:01:57.410Z [INFO]  CLI args: []string{"terraform", "validate"}
+2024-08-04T18:01:57.412Z [INFO]  CLI command args: []string{"validate"}
+2024-08-04T18:01:59.173Z [INFO]  provider: configuring client automatic mTLS
+2024-08-04T18:02:00.767Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-04T18:02:00.767Z
+2024-08-04T18:02:00.904Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=22891
+2024-08-04T18:02:00.912Z [INFO]  provider: configuring client automatic mTLS
+2024-08-04T18:02:02.481Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-04T18:02:02.481Z
+2024-08-04T18:02:02.669Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=22927
