@@ -914,3 +914,23 @@
 2024-08-04T18:02:00.912Z [INFO]  provider: configuring client automatic mTLS
 2024-08-04T18:02:02.481Z [INFO]  provider.terraform-provider-azurerm_v3.0.0_x5: configuring server automatic mTLS: timestamp=2024-08-04T18:02:02.481Z
 2024-08-04T18:02:02.669Z [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.0/linux_amd64/terraform-provider-azurerm_v3.0.0_x5 id=22927
+2024-08-08T17:05:07.703Z [INFO]  Terraform version: 1.9.3
+2024-08-08T17:05:07.703Z [INFO]  Go runtime version: go1.22.5
+2024-08-08T17:05:07.703Z [INFO]  CLI args: []string{"terraform", "--help"}
+2024-08-08T17:05:07.704Z [INFO]  CLI command args: []string{"--help"}
+2024-08-08T17:05:32.095Z [INFO]  Terraform version: 1.9.3
+2024-08-08T17:05:32.095Z [INFO]  Go runtime version: go1.22.5
+2024-08-08T17:05:32.095Z [INFO]  CLI args: []string{"terraform", "fmt"}
+2024-08-08T17:05:32.096Z [INFO]  CLI command args: []string{"fmt"}
+2024-08-08T17:06:36.714Z [INFO]  Terraform version: 1.9.3
+2024-08-08T17:06:36.714Z [INFO]  Go runtime version: go1.22.5
+2024-08-08T17:06:36.714Z [INFO]  CLI args: []string{"terraform", "fmt", "./priklady_zakladnich_sluzeb/resorce_group.tf"}
+2024-08-08T17:06:36.715Z [INFO]  CLI command args: []string{"fmt", "./priklady_zakladnich_sluzeb/resorce_group.tf"}
+2024-08-08T17:06:42.767Z [INFO]  Terraform version: 1.9.3
+2024-08-08T17:06:42.767Z [INFO]  Go runtime version: go1.22.5
+2024-08-08T17:06:42.767Z [INFO]  CLI args: []string{"terraform", "fmt", "./priklady_zakladnich_sluzeb/resorce_group.tf"}
+2024-08-08T17:06:42.768Z [INFO]  CLI command args: []string{"fmt", "./priklady_zakladnich_sluzeb/resorce_group.tf"}
+2024-08-08T17:07:04.773Z [INFO]  Terraform version: 1.9.3
+2024-08-08T17:07:04.773Z [INFO]  Go runtime version: go1.22.5
+2024-08-08T17:07:04.774Z [INFO]  CLI args: []string{"terraform", "fmt", "./priklady_zakladnich_sluzeb/resorce_group.tf"}
+2024-08-08T17:07:04.775Z [INFO]  CLI command args: []string{"fmt", "./priklady_zakladnich_sluzeb/resorce_group.tf"}

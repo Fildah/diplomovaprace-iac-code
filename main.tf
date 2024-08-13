@@ -88,7 +88,7 @@ resource "azurerm_network_interface" "test-rg-nic" {
     name                          = "internal"
     subnet_id                     = azurerm_subnet.test-rg-subnet.id
     private_ip_address_allocation = "Dynamic"
-    public_ip_address_id = azurerm_public_ip.test-rg-publicip1.id
+    public_ip_address_id          = azurerm_public_ip.test-rg-publicip1.id
   }
 
   tags = {
