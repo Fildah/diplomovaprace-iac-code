@@ -9,41 +9,41 @@ variable "location" {
 variable "rg_name" {
   description = "Nazev resource group"
   type        = string
+  default     = "app_rg_appgw"
+}
+
+variable "vnet_rg_name" {
+  description = "Nazev resource group kde je vytvorena virtualni sit"
+  type        = string
   default     = "app_rg_vnet"
 }
 
-variable "app_vnet_name" {
+variable "vnet_name" {
   description = "Nazev virtualni site"
   type        = string
   default     = "app_vnet"
 }
 
-variable "app_vnet_address_space" {
-  description = "Adresni prostory virtualni site"
-  type        = list(string)
-  default     = ["10.200.0.0/21"]
-}
-
-variable "subnet_a_name" {
+variable "subnet_name" {
   description = "Nazev subnetu"
   type        = string
-  default     = "app_subnet_a"
+  default     = "app_subnet_c_appgw"
 }
 
-variable "subnet_a_address_prefixes" {
+variable "subnet_address_prefixes" {
   description = "Adresni prefixy subnetu"
   type        = list(string)
-  default     = ["10.200.0.0/24"]
+  default     = ["10.200.2.32/27"]
 }
 
-variable "subnet_b_name" {
-  description = "Nazev subnetu"
+variable "public_ip_name" {
+  description = "Nazev verejne IP"
   type        = string
-  default     = "app_subnet_b"
+  default     = "app_appgw_pubip"
 }
 
-variable "subnet_b_address_prefixes" {
-  description = "Adresni prefixy subnetu"
-  type        = list(string)
-  default     = ["10.200.1.0/24"]
+variable "appgw_name" {
+  description = "Nazev application gateway"
+  type        = string
+  default     = "app-appgw"
 }
