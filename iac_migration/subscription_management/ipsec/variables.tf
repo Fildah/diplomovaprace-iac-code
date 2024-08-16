@@ -95,4 +95,5 @@ variable "vpn_connection_shared_key" {
   description = "Klic spojeni VPN a vnitrni site"
   type        = string
   default     = "sem.vepis.svuj.klic"
+  sensitive   = true
 }
