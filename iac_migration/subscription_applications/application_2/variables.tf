@@ -33,7 +33,7 @@ variable "app_service_name_adm" {
 variable "mysql_server_name" {
   description = "Nazev MySQL serveru"
   type        = string
-  default     = "app-app2-mysql"
+  default     = "app-app2-mysql-20948230597-2098420-3888"
 }
 
 variable "mysql_admin_username" {
