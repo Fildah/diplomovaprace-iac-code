@@ -1,5 +1,21 @@
 # Application 1 main.tf
 
+# # Priklad import bloku k importu jiz existujici infra
+# import {
+#   id = "/subscriptions/ca9de45d-3452-4962-aa85-2d5463e0a2b4/resourceGroups/app_app1"
+#   to = azurerm_resource_group.rg
+# }
+
+# import {
+#   id = "/subscriptions/ca9de45d-3452-4962-aa85-2d5463e0a2b4/resourceGroups/app_app1/providers/Microsoft.KeyVault/vaults/app-app1-kv"
+#   to = azurerm_key_vault.kv
+# }
+
+# import {
+#   id = "/subscriptions/ca9de45d-3452-4962-aa85-2d5463e0a2b4/resourceGroups/app_app1/providers/Microsoft.ContainerRegistry/registries/acrapp1"
+#   to = azurerm_container_registry.acr
+# }
+
 # Ziskani dat o soucasnem nastaveni clienta Azure
 data "azurerm_client_config" "current" {}
 
