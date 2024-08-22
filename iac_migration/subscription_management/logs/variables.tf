@@ -1,4 +1,4 @@
-# Definice promenych pro management logovani
+# Definice promenych pro management logovani variables.tf
 
 variable "location" {
   description = "Lokalita resource group a vytvorenych zdroju"
@@ -25,7 +25,7 @@ variable "log_entra_sku" {
 }
 
 variable "log_entra_retention" {
-  description = "Uchovávání dat ve dnech pro Entra Log Analytics workspace"
+  description = "Uchovavani dat ve dnech pro Entra Log Analytics workspace"
   type        = number
   default     = "180"
 }
@@ -43,7 +43,7 @@ variable "log_mngm_sku" {
 }
 
 variable "log_mngm_retention" {
-  description = "Uchovávání dat ve dnech pro management Log Analytics workspace"
+  description = "Uchovavani dat ve dnech pro Entra Log Analytics workspace"
   type        = number
   default     = "30"
 }
