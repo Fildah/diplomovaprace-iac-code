@@ -1,4 +1,4 @@
-# Definice promenych pro aplikacni logovani
+# Definice promenych pro Aplikacni Logovani
 
 variable "location" {
   description = "Lokalita resource group a vytvorenych zdroju"

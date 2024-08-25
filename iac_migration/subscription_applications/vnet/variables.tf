@@ -1,4 +1,4 @@
-# Definice promenych pro apliakacni vnet
+# Definice promenych vNET pro aplikace
 
 variable "location" {
   description = "Lokalita resource group a vytvorenych zdroju"

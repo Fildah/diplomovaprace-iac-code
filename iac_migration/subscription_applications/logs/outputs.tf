@@ -1,0 +1,1 @@
+# Vystupy pro Aplikacni Logovani

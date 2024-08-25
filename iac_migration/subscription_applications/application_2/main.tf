@@ -1,4 +1,4 @@
-# Application 2 main.tf
+# Aplikace 2 main.tf
 
 # Resource group pro Application gateway
 resource "azurerm_resource_group" "rg" {

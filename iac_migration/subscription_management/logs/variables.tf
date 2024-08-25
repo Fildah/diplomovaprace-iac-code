@@ -1,4 +1,4 @@
-# Definice promenych pro management logovani variables.tf
+# Definice promenych pro Management Logovani variables.tf
 
 variable "location" {
   description = "Lokalita resource group a vytvorenych zdroju"

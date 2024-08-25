@@ -1,12 +1,12 @@
-# Site-to-site VPN
+# vNET pro aplikace
 
-# Resource group pro VPN
+# Resource group pro vNET
 resource "azurerm_resource_group" "rg" {
   name     = var.rg_name
   location = var.location
 }
 
-# Virtualni site
+# Virtualni sit
 resource "azurerm_virtual_network" "app_vnet" {
   name                = var.app_vnet_name
   address_space       = var.app_vnet_address_space
@@ -22,7 +22,7 @@ resource "azurerm_subnet" "subnet_a" {
   address_prefixes     = var.subnet_a_address_prefixes
 }
 
-# Subnet A
+# Subnet B
 resource "azurerm_subnet" "subnet_b" {
   name                 = var.subnet_b_name
   resource_group_name  = azurerm_resource_group.rg.name

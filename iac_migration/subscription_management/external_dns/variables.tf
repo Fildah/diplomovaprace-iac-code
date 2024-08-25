@@ -1,4 +1,4 @@
-# Definice promenych pro externí DNS
+# Definice promenych pro Externi DNS
 
 variable "location" {
   description = "Lokalita resource group a vytvorenych zdroju"

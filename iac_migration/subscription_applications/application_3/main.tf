@@ -1,4 +1,4 @@
-# Application 3 main.tf
+# Aplikace 3 main.tf
 
 # Data o soucasnem nastaveni clienta Azure
 data "azurerm_client_config" "current" {}
@@ -22,11 +22,11 @@ data "azurerm_application_gateway" "app_gateway" {
   resource_group_name = var.app_gateway_resource_group_name
 }
 
-# # Data o existující MS SQL Managed Instance
-# data "azurerm_mssql_managed_instance" "sql_instance" {
-#   name                = var.sql_instance_name
-#   resource_group_name = var.sql_instance_resource_group_name
-# }
+# Data o existující MS SQL Managed Instance
+data "azurerm_mssql_managed_instance" "sql_instance" {
+  name                = var.sql_instance_name
+  resource_group_name = var.sql_instance_resource_group_name
+}
 
 
 # Resource group pro Aplikaci 3
@@ -35,15 +35,15 @@ resource "azurerm_resource_group" "rg" {
   location = var.location
 }
 
-# # MSSQL managed databaze
-# resource "azurerm_mssql_managed_database" "sqlmi_db" {
-#   managed_instance_id = data.azurerm_mssql_managed_instance.sql_instance.id
-#   name                = var.sqlmi_db_name
+# MSSQL managed databaze
+resource "azurerm_mssql_managed_database" "sqlmi_db" {
+  managed_instance_id = data.azurerm_mssql_managed_instance.sql_instance.id
+  name                = var.sqlmi_db_name
 
-#   lifecycle {
-#     prevent_destroy = true
-#   }
-# }
+  lifecycle {
+    prevent_destroy = true
+  }
+}
 
 # Key Vault
 resource "azurerm_key_vault" "kv" {

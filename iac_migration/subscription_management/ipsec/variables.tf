@@ -1,4 +1,4 @@
-# Definice promenych pro management ipsec vnet
+# Definice promenych pro Site-to-site VPN
 
 variable "location" {
   description = "Lokalita resource group a vytvorenych zdroju"

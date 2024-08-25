@@ -1,4 +1,4 @@
-# Logovani
+# Management Logovani
 
 # Resource group pro logovani
 resource "azurerm_resource_group" "rg_logs" {

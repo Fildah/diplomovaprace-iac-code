@@ -1,4 +1,4 @@
-# Application 1 main.tf
+# Aplikace 1 main.tf
 
 # # Priklad import bloku k importu jiz existujici infra
 # import {

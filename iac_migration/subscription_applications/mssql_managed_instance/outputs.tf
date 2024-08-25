@@ -1,0 +1,1 @@
+# Vystupy pro MSSQL managed instance

@@ -1,4 +1,4 @@
-# Definice promenych pro Apliakaci 3 variables.tf
+# Definice promenych pro Aplikace 3 variables.tf
 
 variable "vnet_name" {
   description = "Nazev existujici virtualni site"
